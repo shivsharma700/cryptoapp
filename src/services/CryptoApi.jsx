@@ -22,9 +22,10 @@ export const cryptoApi = createApi({
         getCryptoHistory: builder.query({
             query: ({ coinId }) => createRequest(`coin/${coinId}/history`),
         }),
-        getExchanges: builder.query({
-            query: () => createRequest('/exchanges'),
-        }), 
+        // exchanges api's are premium now.
+        // getExchanges: builder.query({
+        //     query: () => createRequest('/exchanges'),
+        // }), 
     })
 })
 

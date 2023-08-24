@@ -1,7 +1,7 @@
 // exchanges Api's are premium now, so  did't using it , please ignore it
 
 
-// import React from 'react';
+import React from 'react';
 // import millify from 'millify';
 // import { Collapse, Row, Col, Typography, Avatar } from 'antd';
 // import HTMLReactParser from 'html-react-parser';
@@ -12,15 +12,16 @@
 // const { Text } = Typography;
 // const { Panel } = Collapse;
 
-// const Exchanges = () => {
+const Exchanges = () => {
 //   const { data, isFetching } = useGetExchangesQuery();
 //   console.log(data)
 //   const exchangesList = data?.data?.exchanges;
 //  // Note: To access this endpoint  need premium plan
 //   if (isFetching) return <Loader />;
 
-//   return (
-//     <>
+  return (
+    <>
+      exchanges Api's are premium now, kindly please igonre it.
 //       <Row>
 //         <Col span={6}>Exchanges</Col>
 //         <Col span={6}>24h Trade Volume</Col>
@@ -53,8 +54,8 @@
 //           </Col>
 //         ))} */}
 //       </Row>
-//     </>
-//   );
-// };
+     </>
+  );
+};
 
 // export default Exchanges;
